@@ -1,7 +1,7 @@
 var psichedelic = true;
-var colors = ['red', 'yellow', 'deeppink'];
+var colors = ['white', 'deeppink', 'azure'];
 var i = 0;
-var welcomeDiv = document.getElementById("first");
+var welcomeDiv = document.getElementById("party");
 function whaitALittle(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -20,9 +20,12 @@ async function thunderParty(sleepInt) {
 }
 
 while (psichedelic) {
+    if(!welcomeDiv) {
+        return false;
+    }
     thunderParty(400);
     i++;
-    if (i == 45000) {
+    if (i == 55000) {
         psichedelic = false;
     }
 }
