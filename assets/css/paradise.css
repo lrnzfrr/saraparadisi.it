@@ -46,7 +46,7 @@ html {
 }
 
 #projectDiv {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.95);
     color:white;
 }
 
@@ -54,6 +54,33 @@ html {
     background-color:white;
     color: black;
 }
+
+.contactList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    overflow: hidden;
+    background-color: #fff;
+    font-size: 2.5em;
+  }
+  
+  .contactList li {
+    float: left;
+    color: 000;
+    margin:5px;
+  }
+  
+  .contactList li a a:visited {
+    display: block;
+    color: 000;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .contactList li a:hover {
+    color: deeppink;
+  }
 
  
 .textLogo {
