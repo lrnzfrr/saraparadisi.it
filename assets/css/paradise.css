@@ -55,33 +55,7 @@ html {
     color: black;
 }
 
-.contactList {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
-    overflow: hidden;
-    background-color: #fff;
-    font-size: 2.5em;
-  }
   
-  .contactList li {
-    float: left;
-    color: 000;
-    margin:5px;
-  }
-  
-  .contactList li a a:visited {
-    display: block;
-    color: 000;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  .contactList li a:hover {
-    color: deeppink;
-  }
-
  
 .textLogo {
     background-color: rgb(0, 0, 0);
@@ -150,7 +124,11 @@ html {
 .navbar-custom .navbar-nav .nav-link {
     color:white;
     padding: .75rem 1rem;
+    border-color:transparent;
+    
 }
+
+ 
 
 /* change the color and bg color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
