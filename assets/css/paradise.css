@@ -5,6 +5,7 @@ html {
     margin: 0;
     font-family: 'Anton', sans-serif;
     /*font-family: 'Roboto Condensed', sans-serif; */
+    
 }
 
 * {
@@ -43,50 +44,67 @@ html {
 #playDiv {
     background-color:cyan;
     color: black;
+    line-height: 40px;
 }
 
+#playDiv b {
+    background-color: white;
+    padding: 2px;
+}
 #projectDiv {
     background-color: rgba(0, 0, 0, 0.95);
     color:white;
+    line-height: 40px;
 }
 
-#contactDiv {
+#projectDiv a{
+    background-color: white;
+    color: black;
+    padding: 2px;
+}
+ 
+#projectDiv h4{ 
+    border-bottom:1px solid ;
+    padding:10px;
+ 
+}
+
+#endDiv {
     background-color:white;
     color: black;
 }
 
-  
+#endDiv a {
+    color: black;
  
-.textLogo {
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/opacity/see-through */
-    color: deeppink;
-    font-weight: bold;
-    font-size: 20px;
-    border: 8px solid #f9f9f9;
-    padding: 15px;
-    text-align: center;
+  
 }
 
-#evidence {
-    position: fixed;
-    /* Stay fixed */
-    top: 70;
-    right: 10;
-    /*transform: translate(-50%, -50%); */
-    z-index: 20;
+#endDiv a:hover {
+    color: black;
+ 
 }
 
-#evidence a {
-    color: #000;
-    font-size: 1.50em;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
-    margin: 5px;
+#callMeDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
+#callMeDiv a {
+    font-size: 3.5em;
+    color: white; 
+    margin:5px;    
+}
+
+#callMeDiv a:hover {
+    font-size: 4em;
+    color: white;     
+}
+
+ 
+
  
 .footer {
     /* Black w/opacity/see-through */
