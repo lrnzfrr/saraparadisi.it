@@ -44,7 +44,7 @@ html {
 #playDiv {
     background-color:cyan;
     color: black;
-    line-height: 40px;
+    line-height: 35px;
 }
 
 #playDiv b {
@@ -54,7 +54,7 @@ html {
 #projectDiv {
     background-color: rgba(0, 0, 0, 0.95);
     color:white;
-    line-height: 40px;
+    line-height: 35px;
 }
 
 #projectDiv a{
